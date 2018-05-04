@@ -1,0 +1,212 @@
+<html>
+	<head>
+		<title>chalani aththanayake/register</title>
+		<link href="../styles/style.css" type="text/css" rel="stylesheet">
+
+			<script language="javascript" type="text/javascript">
+                        function checking(){
+						var doc=document.myform;
+					    if(doc.firstname.value=="")
+						alert("Enter your first name");
+						else if(doc.lastname.value=="")
+						alert("enter your last name");
+						else if(doc.username.value=="")
+						alert("you should give your username");
+
+						else if(doc.gender.value=="")
+						alert("give your gender");
+						else if(doc.email.value=="")
+						alert("Enter your Email address");
+						else if(doc.Month.value=="Month"||doc.bday.value==""||doc.byear.value=="")
+						alert("Enter your Birthday");
+
+
+
+						}
+
+
+
+			</script>
+		</head>
+
+		<body border-style="solid">
+
+			<div id="header">
+				<h1 id ="text"><img src="../images/logo.png" width="70px">&nbsp &nbsp iTECH EDUCATIONAL INSTITUTE</h1>
+			</div>
+
+
+			<div id="menu">
+				<ul>
+					<li class="navi">
+						<a  href="home.html">
+							<b>HOME</b>
+						</a>
+						<li/>
+						<li class="navi">
+							<a  href="register.html">
+								<b>REGISTER</b>
+							</a>
+							<li/>
+							<li class="navi">
+								<a  href="courses.html">
+									<b>COURSES</b>
+								</a>
+								<li/>
+								<li class="navi">
+									<a  href="contact.html">
+										<b>CONTACT</b>
+									</a>
+									<li/>
+									<li class="navi">
+										<a  href="branches.html">
+											<b>BRANCHES</b>
+										</a>
+										<li/>
+
+
+										<ul/>
+									</div>
+
+									<div class="class1" align= "center">
+										<div class="class1_1" align= "center">
+
+										<h1 style="font-size:50px;">Register...</h1>
+										<form id="form"name="myform" method="post" onsubmit="return validate()">
+											<label>
+												<h2>Name:</h2>
+											</label>
+
+											<input type="text" name="firstname" placeholder="first"/> 
+											<input type="text" name="lastname" placeholder="last"/>
+
+
+											<label>
+												<h2>Your Email</h2>
+											</label>
+
+											<input type="email" name="email" />
+
+
+
+											<label>
+												<h2>Birthday</h2>
+											</label>
+
+											<select name="birthday.month">
+
+												<option value="" selected="selected">Month</option>
+												<option value="jan">January</option>
+												<option value="feb">February</option>
+												<option value="march">March</option>
+												<option value="apr">April</option>
+												<option value="may">May</option>
+												<option value="ju">June</option>
+												<option value="july">July</option>
+												<option value="au">Augest</option>
+												<option value="sep">September</option>
+												<option value="oct">October</option>
+												<option value="nov">November</option>
+												<option value="dec">December</option>
+
+
+											</select>
+
+											<select name="birthday.day">
+
+												<option value="" selected="selected">Day</option>
+												<option value="1">01</option>
+												<option value="2">02</option>
+												<option value="3">03</option>
+												<option value="4">04</option>
+												<option value="5">05</option>
+												<option value="6">06</option>
+												<option value="7">07</option>
+												<option value="8">08</option>
+												<option value="9">09</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+
+											</select>
+											<select name="birthdayyear">
+
+												<option value="" selected="selected">Year</option>
+												<option value="">1992</option>
+												<option value="">1993</option>
+												<option value="">1994</option>
+												<option value="">1995</option>
+												<option value="">1996</option>
+												<option value="">1997</option>
+												<option value="">1998</option>
+												<option value="">1999</option>
+												<option value="">2000</option>
+												<option value="">2001</option>
+												<option value="">2002</option>
+												<option value="">2003</option>
+												<option value="">2004</option>
+
+											</select>
+
+
+											<label>
+												<h2>Gender</h2>
+											</label>
+										</br>
+										<select name="gender">
+
+											<option value="" selected="selected">I am..</option>
+											<option value="male">Male</option>
+											<option value="female">Female</option>
+
+										</select>
+
+										<label>
+											<h2>Course</h2>
+										</label>
+
+										<select name="course">
+
+											<option value="" selected="selected">Select course</option>
+											<option value="s">Software development</option>
+											<option value="a">Android development</option>
+											<option value="w">Web design</option>
+											<option value="g">Graphic design</option>
+											<option value="m">Java programe</option>
+
+
+										</select>
+										<br />
+										<br />
+
+										<input type="submit"name="submit" onclick="checking()" style="border-style:none;width:180px;height:45px;color:green;background-color:yellow; margin-bottom:20px" >
+
+										</form>
+
+										</div>
+
+									</div> 
+
+
+								<div id="4toChange">
+<div id="marquee">
+	</br></br>
+		<marquee><b style="color:red">iTECH EDUCATIONAL INSTITUTE</b></marquee>  
+
+	</div>
+</div>
+
+
+							<div id="footer">
+
+								<p style="font-size:20px">
+								</br>Designed by chalani aththanayake</>
+
+					</div>
+				</body>
+
+			</html>

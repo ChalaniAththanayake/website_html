@@ -1,0 +1,256 @@
+body{
+	background-color:black;
+}
+#header{
+
+    background-image:url("../images/24b.jpg");
+    text-align:center;
+    font-family:"Bauhaus 93";
+    width:98.5%;
+    height:150px;
+    padding:10px 10px 10px 10px;
+    position:relative;  
+	
+}
+
+#logo{
+	position:relative;
+	top:0px;
+	left:5px;
+	
+}
+
+#menu{
+	background-image:url("../images/image3.JPG")
+	 
+	
+}
+	
+#menu li{
+	display:inline-block;
+	color:black;
+    list-style:none;
+	padding-left:80px;
+	padding-bottom:5px;
+	padding-top:5px;
+	font-family:"Arial Black";
+	position:relative;  
+	
+	                   }
+    
+#header h1{
+       font-size:50pt;
+       color:blue;
+	   
+       }
+	   
+.home1{
+		background: #EFEF;
+	height: 400px;
+	width: 800px;
+	opacity: 0.8;
+	
+}
+.class3{
+     width:98.5%;
+     height:500px;
+     padding:10px 10px 10px 10px;
+     background-image:url("../images/3.JPG");
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 background-size:100%;
+     margin-left:0%;
+     margin-top:0%;
+	margin-top:0%;
+}
+.branch{
+	width:98.5%;
+     height:1000px;
+     padding:10px 10px 10px 10px;
+     background-image:url("../images/hx0LkEB.JPG");
+	 background-position:center;
+	 background-size:100%;
+     margin-left:0%;
+     margin-top:0%;
+}
+.change{
+	
+	
+	left:500px;
+	height:200px;
+}
+.change1{
+	
+	
+	left:500px;
+	height:200px;
+}
+.change2{
+	
+	left:500px;
+	height:200px;
+}
+.1p{
+	position:relative;
+	left:400px;
+	top:-170px;
+	background-color:yellow;
+	color:#4682B4;
+	padding:10px;
+	height:200px;
+}
+.class1{
+     width:98.5%;
+     height:700px;
+     padding:10px 10px 10px 10px;
+     background-image:url("../images/Masters-degree1.png");
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 background-size:100%;
+     margin-left:0%;
+     margin-top:0%
+	
+}
+.explain{
+	width:98.5%;
+    height:1650px;
+	background-image:url("../images/hx0LkEB.JPG");
+	position: relative;
+	padding: 10px;
+}
+
+.imgSD{
+	float:left;
+	position:relative;
+	width:30%;
+	margin-left:10px;
+	padding:5px;
+	margin:5px;
+	
+}
+.extra{
+	float:left;
+	background-color:#b3ccff;
+	position:relative;
+	width:32%;
+	padding:5px;
+	height:200px;
+	margin:5px;
+	}
+.class7{
+	width: 98.5%;
+	height:300px;
+	background: #EFEFEF;
+	opacity: 0.8;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+}
+.extra1{
+	position:relative;
+	left:400px;
+	top:-170px;
+	background-color:none;
+	color:#4682B4;
+	width:400px;
+	padding:10px;
+	height:200px;
+	
+	}
+
+.rs{
+	position:relative;
+	float:left;
+	background-color:#b3ccff;
+	width:32%;
+	padding:5px;
+	height:200px;
+	margin: 5px;
+}
+
+.reg{
+	
+	right:400px;
+	width:98.5%;
+     height:6000px;
+	background-color:white;	
+
+}
+.con{
+	width:98.5%;
+    height:800px;
+    padding:10px 10px 10px 10px;
+    background-image:url("../images/p.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+    margin-left:0%;
+    margin-top:0%;
+	position: relative;	
+
+}
+
+.contact{
+	background: #EFEFEF;
+	height: 740px;
+	width: 400px;
+	opacity: 0.8;
+	position:relative;
+}
+	
+	
+#form
+{
+	position:relative;
+	
+}
+
+
+
+#4toChange{
+	width:98.5%;
+	height:300px;
+	background-color:white;
+}
+
+
+.class2{
+	height:100px;
+	width:100px;
+}
+
+
+
+
+
+#footer{
+    width:100%;
+    height:50px;
+   background-image:url("../images/image3.JPG");
+}
+
+
+
+#footer p{
+text-align:center;
+
+}
+.mimg
+{
+	width:10%;
+	height:5%;
+}
+
+#span1{
+	color:red;
+}
+.left{
+	position:relative;
+	text-align:right;
+}
+
+.class1_1{
+	background: #EFEFEF;
+	height: 650px;
+	width: 400px;
+	opacity: 0.8;
+}
